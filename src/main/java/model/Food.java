@@ -22,7 +22,7 @@ public abstract class Food implements Discountable { // абстрактный �
         return price;
     }
 
-    public boolean getIsVegetarian() { // метод возвращает инфо вегетарианский ли продукт;
+    public boolean isVegetarian() { // метод возвращает инфо вегетарианский ли продукт;
         return isVegetarian;
     }
 

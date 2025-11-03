@@ -22,7 +22,7 @@ public class Main { // класс main;
     // вывод результатов:
     System.out.printf("Общая сумма товаров без скидки: " + shoppingCart.totalSumWithoutDiscount() + "руб.");
     System.out.printf("Общая сумма товаров со скидкой: " + shoppingCart.totalSumWithDiscount() + "руб.");
-    System.out.printf("Cумма вегетарианских продуктов со скидкой: " + shoppingCart.totalSumVegetarianWithoutDiscount() + "руб.");
+    System.out.printf("Cумма вегетарианских продуктов без скидки: " + shoppingCart.totalSumVegetarianWithoutDiscount() + "руб.");
 
     }
 }
