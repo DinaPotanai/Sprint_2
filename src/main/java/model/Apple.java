@@ -14,10 +14,7 @@ public class Apple extends Food { // класс для яблок
 
     @Override
     public double getDiscount() {
-        if (colour.equals(Colour.RED_COLOUR)) {
-            return Discount.DISCOUNT_RED_APPLES;
-        }
-        return Discount.DISCOUNT_OTHER;
+        return colour.equals(Colour.RED_COLOUR) ? Discount.DISCOUNT_RED_APPLES : Discount.DISCOUNT_OTHER;
     }
 
 }
